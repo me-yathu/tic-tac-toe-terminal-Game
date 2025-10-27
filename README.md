@@ -16,23 +16,20 @@ A terminal or command prompt to run the script.
 Quickstart — Run the Game
 Clone or download the repository to your local machine.
 
-bash
-Copy code
-git clone https://github.com/your-username/tic-tac-toe-terminal.git
+# Clone Project
 Open a terminal and navigate to the project folder.
 
-bash
-Copy code
+# bash
 cd tic-tac-toe-terminal
 Run the game by executing the Python script:
 
-bash
-Copy code
-python tic_tac_toe.py
+# bash
+python TikTacToe.py
 At the prompt, choose a mode:
 
-1 for single-player (Player vs AI).
-2 for multiplayer (Player vs Player).
+Enter 1 for single player , 2 for multiplayer : 1
+computer : 0 Vs. You : X       
+enter to play 1(st) or 2(nd) :
 Enter your moves as numbers from 1 to 9, corresponding to the positions on the board. The board is arranged as follows:
 -  -  -  
 -  -  -  
