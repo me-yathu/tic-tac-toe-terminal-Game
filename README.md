@@ -31,30 +31,19 @@ Enter 1 for single player , 2 for multiplayer : 1
 computer : 0 Vs. You : X       
 enter to play 1(st) or 2(nd) :
 Enter your moves as numbers from 1 to 9, corresponding to the positions on the board. The board is arranged as follows:
--  -  -  
--  -  -  
--  -  - 
-Play and enjoy the game!
+<br>
+<img width="320" height="205" alt="1" src="Related Photoes/1.PNG" />
+
 
 Example Gameplay
+<br>
+<img width="409" height="227" alt="2" src="Related Photoes/2.PNG" />
 
-Enter choice: 1
-
-Player 1 (X), choose your move (1–9): 5
-Current board:
--  -  -  
--  X  -  
--  -  -
-
-AI (O) is making its move...
-
-Current board:
--  O  -  
--  X  -  
--  -  -
-
-Player 1 (X), choose your move (1–9): 1
+<br>
+<img width="417" height="232" alt="3" src="Related Photoes/3.PNG" />
+<br>
 ...
+<br>
 How It Works
 The game consists of a 3x3 board where players take turns marking their spot with an "X" or "O".
 Players choose a position on the board by entering a number between 1 and 9. The board updates after every move, and the game checks for a winner.
@@ -65,5 +54,8 @@ This is a simple implementation, and there are plenty of ways to extend and impr
 
 Enhance the AI to make smarter moves using a minimax algorithm or another strategy.
 Add a score counter to keep track of wins and losses.
+
+
+Play and enjoy the game!
 Implement a restart game option after a win or draw.
 Add input validation to ensure players only input valid moves (numbers 1–9 for empty spots).
